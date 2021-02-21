@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+
+struct Picture: Decodable {
+    let message: String
+    let status: String
+}

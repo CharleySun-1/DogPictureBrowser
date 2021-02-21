@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct SearchResult: Decodable {
+    let results: [Picture]
+}
