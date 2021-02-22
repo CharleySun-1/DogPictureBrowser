@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2AE6DD25E41C41000D9C5C /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2AE6DC25E41C41000D9C5C /* RemoteImageView.swift */; };
 		8CE1EA6725E2F8B60002C56C /* DogPictureBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1EA6625E2F8B60002C56C /* DogPictureBrowserApp.swift */; };
 		8CE1EA6925E2F8B60002C56C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1EA6825E2F8B60002C56C /* ContentView.swift */; };
 		8CE1EA6B25E2F8BB0002C56C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE1EA6A25E2F8BB0002C56C /* Assets.xcassets */; };
 		8CE1EA6E25E2F8BB0002C56C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE1EA6D25E2F8BB0002C56C /* Preview Assets.xcassets */; };
 		8CE1EA7725E2F90C0002C56C /* DogPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1EA7625E2F90C0002C56C /* DogPicture.swift */; };
 		8CE1EA7C25E2F97A0002C56C /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1EA7B25E2F97A0002C56C /* SearchResult.swift */; };
-		8CE1EA7F25E2FB410002C56C /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE1EA7E25E2FB410002C56C /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C2AE6DC25E41C41000D9C5C /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
 		8CE1EA6325E2F8B60002C56C /* DogPictureBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogPictureBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE1EA6625E2F8B60002C56C /* DogPictureBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogPictureBrowserApp.swift; sourceTree = "<group>"; };
 		8CE1EA6825E2F8B60002C56C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		8CE1EA6F25E2F8BB0002C56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CE1EA7625E2F90C0002C56C /* DogPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogPicture.swift; sourceTree = "<group>"; };
 		8CE1EA7B25E2F97A0002C56C /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
-		8CE1EA7E25E2FB410002C56C /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,7 @@
 		8CE1EA6525E2F8B60002C56C /* DogPictureBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				8CE1EA6625E2F8B60002C56C /* DogPictureBrowserApp.swift */,
 				8CE1EA7A25E2F91C0002C56C /* Model */,
 				8CE1EA7925E2F9110002C56C /* Views */,
 				8CE1EA6A25E2F8BB0002C56C /* Assets.xcassets */,
@@ -78,8 +79,8 @@
 		8CE1EA7925E2F9110002C56C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8CE1EA7E25E2FB410002C56C /* SearchBarView.swift */,
 				8CE1EA6825E2F8B60002C56C /* ContentView.swift */,
+				8C2AE6DC25E41C41000D9C5C /* RemoteImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				8CE1EA7625E2F90C0002C56C /* DogPicture.swift */,
-				8CE1EA6625E2F8B60002C56C /* DogPictureBrowserApp.swift */,
 				8CE1EA7B25E2F97A0002C56C /* SearchResult.swift */,
 			);
 			path = Model;
@@ -163,10 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE1EA7F25E2FB410002C56C /* SearchBarView.swift in Sources */,
 				8CE1EA7725E2F90C0002C56C /* DogPicture.swift in Sources */,
 				8CE1EA6925E2F8B60002C56C /* ContentView.swift in Sources */,
 				8CE1EA7C25E2F97A0002C56C /* SearchResult.swift in Sources */,
+				8C2AE6DD25E41C41000D9C5C /* RemoteImageView.swift in Sources */,
 				8CE1EA6725E2F8B60002C56C /* DogPictureBrowserApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
